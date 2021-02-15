@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
+
+}
+
+.navbar{
+    background: blueviolet;
+    width: 100%;
+    height: 60px;
+
+}
+
+.logo{
+    display: inline-block;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 2%;
+    position: absolute;
+    margin-top: 10px;
+}
+.navbar ul{
+    display: inline-block;
+    float: right;
+}
+.navbar li{
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.navbar a:hover{
+    color: rgb(164,165,250);
+}
